@@ -1,5 +1,6 @@
 # SpringIndicator
 ![icon](https://raw.githubusercontent.com/chenupt/SpringIndicator/master/img/icon.png)
+
 An indicator like Morning Routine guide.It was originally based on [BezierDemo](https://github.com/chenupt/BezierDemo).
 
 The sample app: [click me](https://github.com/chenupt/SpringIndicator/raw/master/img/springindicator_1.0.0.apk)
