@@ -5,7 +5,7 @@ An indicator like Morning Routine guide.It was originally based on [BezierDemo](
 
 The sample app: [click me](https://github.com/chenupt/SpringIndicator/raw/master/img/springindicator_1.0.0.apk)
 
-![gif](https://raw.githubusercontent.com/chenupt/SpringIndicator/master/img/si_1.0.0.gif)
+![gif](https://raw.githubusercontent.com/chenupt/SpringIndicator/master/img/si_1.0.1.gif)
 
 #Usage
 ---
