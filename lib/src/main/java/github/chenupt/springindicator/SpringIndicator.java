@@ -84,14 +84,14 @@ public class SpringIndicator extends FrameLayout {
         radiusMin = getResources().getDimension(R.dimen.si_default_radius_min);
 
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.SpringIndicator);
-        textColorId = a.getResourceId(R.styleable.SpringIndicator_textColor, textColorId);
-        selectedTextColorId = a.getResourceId(R.styleable.SpringIndicator_selectedTextColor, selectedTextColorId);
-        textSize = a.getDimension(R.styleable.SpringIndicator_textSize, textSize);
-        textBgResId = a.getResourceId(R.styleable.SpringIndicator_textBg, 0);
-        indicatorColorId = a.getResourceId(R.styleable.SpringIndicator_indicatorColor, indicatorColorId);
-        indicatorColorsId = a.getResourceId(R.styleable.SpringIndicator_indicatorColors, 0);
-        radiusMax = a.getDimension(R.styleable.SpringIndicator_radiusMax, radiusMax);
-        radiusMin = a.getDimension(R.styleable.SpringIndicator_radiusMin, radiusMin);
+        textColorId = a.getResourceId(R.styleable.SpringIndicator_siTextColor, textColorId);
+        selectedTextColorId = a.getResourceId(R.styleable.SpringIndicator_siSelectedTextColor, selectedTextColorId);
+        textSize = a.getDimension(R.styleable.SpringIndicator_siTextSize, textSize);
+        textBgResId = a.getResourceId(R.styleable.SpringIndicator_siTextBg, 0);
+        indicatorColorId = a.getResourceId(R.styleable.SpringIndicator_siIndicatorColor, indicatorColorId);
+        indicatorColorsId = a.getResourceId(R.styleable.SpringIndicator_siIndicatorColors, 0);
+        radiusMax = a.getDimension(R.styleable.SpringIndicator_siRadiusMax, radiusMax);
+        radiusMin = a.getDimension(R.styleable.SpringIndicator_siRadiusMin, radiusMin);
         a.recycle();
 
         if(indicatorColorsId != 0){
