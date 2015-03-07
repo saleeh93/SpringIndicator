@@ -292,7 +292,7 @@ public class SpringIndicator extends FrameLayout {
         return tabs;
     }
 
-    public void setOnPagerChangeListener(ViewPager.OnPageChangeListener listener){
+    public void setOnPageChangeListener(ViewPager.OnPageChangeListener listener){
         this.delegateListener = listener;
     }
 
