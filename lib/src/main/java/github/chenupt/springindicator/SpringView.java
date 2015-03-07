@@ -20,10 +20,8 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
-import android.graphics.PorterDuff;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.OvershootInterpolator;
@@ -101,7 +99,6 @@ public class SpringView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         makePath();
-        canvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.OVERLAY);
         canvas.drawPath(path, paint);
         canvas.drawCircle(headPoint.getX(), headPoint.getY(), headPoint.getRadius(), paint);
         canvas.drawCircle(footPoint.getX(), footPoint.getY(), footPoint.getRadius(), paint);
