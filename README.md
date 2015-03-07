@@ -23,11 +23,11 @@ Add the indicator to your layout.
 ```
 <github.chenupt.springindicator.SpringIndicator
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:textSize="18sp"
-    app:indicatorColors="@array/indicator_colors"
-    app:textColor="@color/colorPrimaryDark"
-    app:selectedTextColor="@android:color/white"
-    app:indicatorColor="@color/colorPrimary"
+    app:siTextSize="18sp"
+    app:siIndicatorColors="@array/indicator_colors"
+    app:siTextColor="@color/colorPrimaryDark"
+    app:siSelectedTextColor="@android:color/white"
+    app:siIndicatorColor="@color/colorPrimary"
     android:id="@+id/indicator"
     android:layout_width="match_parent"
     android:layout_height="56dp"/>
