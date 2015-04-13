@@ -270,7 +270,7 @@ public class SpringIndicator extends FrameLayout {
 
     private void setSelectedTextColor(int position){
         for (TextView tab : tabs) {
-            tab.setTextColor(textColorId);
+            tab.setTextColor(getResources().getColor(textColorId));
         }
         tabs.get(position).setTextColor(getResources().getColor(selectedTextColorId));
     }
