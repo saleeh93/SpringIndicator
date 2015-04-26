@@ -35,6 +35,8 @@ springIndicator.setViewPager(viewPager);
 ```
 [All xml attributes.](https://github.com/chenupt/SpringIndicator/blob/master/lib%2Fsrc%2Fmain%2Fres%2Fvalues%2Fattrs.xml)
 
+## Change Log
+    -Added support to API 9 using nineoldandroids
 Developed By
 ---
  * Chenupt - <chenupt@gmail.com>
